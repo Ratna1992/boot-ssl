@@ -1,0 +1,6 @@
+server:
+  ssl:
+    key-store: classpath:secure.jks
+    key-store-password: password
+    key-alias: bootsslcert
+  port: 9192
